@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestAddProductToCart
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! - in TestAddProductToCart
+TestAddProductToCart  Time elapsed: 0.002 s  <<< ERROR!
+org.junit.platform.commons.JUnitException: @BeforeAll method 'public void BaseTest.setUp()' must be static unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
+
